@@ -1,0 +1,89 @@
+{
+    "project_logo": null,
+    "project_favicon": "favicon.png",
+    "project_name": null,
+    "project_url": null,
+    "copyright_start_year": null,
+    "client_name": null,
+    "client_url": null,
+    "creators": [
+        {
+            "name": null,
+            "url": null
+        }
+    ],
+    "theme": {
+        "border_color": "#E0E6ED",
+        "highlight_color": "#F9FAFC",
+        "brand_color": "#00585C",
+        "background_color": "#FFFFFF",
+        "code_highlight_theme": "github",
+        "override_code_highlight_bg": "#F9FAFC",
+        "sample_dark_background": "#333333",
+        "show_project_name": true,
+        "show_version": true,
+        "max_width": null,
+        "titles": {
+            "library_title": "Pattern Library",
+            "pages_title": "Overview",
+            "components_title": "Components"
+        }
+    },
+    "assets": {
+        "css": [],
+        "js": []
+    },
+    "font_libraries": {
+        "typekit_code": null,
+        "typography_web_fonts": null,
+        "google_web_fonts": null
+    },
+    "content": {
+        "show_first_page_on_load": true,
+        "title": "Overview",
+        "pages": [
+            {
+                "name": "introduction",
+                "title": "Introduction",
+                "file": "./pages/intro.md"
+            }
+        ]
+    },
+    "groups": [
+        {
+            "name": "branding",
+            "title": "Branding",
+            "components": [
+                {
+                    "group": "branding",
+                    "name": "color-palette",
+                    "title": "Primary Color Palette",
+                    "options": {
+                      "sample_dark_background": true,
+                      "disable_code_sample": true
+                    },
+                    "type": "colors",
+                    "colors": [
+                      "#7da9f9,#507ed3",
+                      "#f469a7,#c14c80",
+                      "#60ceb8,#3fa18d",
+                      "#f5d13f,#f5a63f",
+                      "#e199e5,#c776cb"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "navigation",
+            "title": "Navigation",
+            "components": [
+                {
+                    "group": "navigation",
+                    "name": "primary",
+                    "title": "Primary Navigation"
+                }
+            ]
+        }
+    ],
+    "version": "1.9.3"
+}
