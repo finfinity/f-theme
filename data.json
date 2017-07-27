@@ -1,65 +1,65 @@
 {
-	"project_logo": null,
-	"project_favicon": "favicon.png",
-	"project_name": "Design Code",
-	"project_url": null,
-	"copyright_start_year": null,
-	"client_name": null,
-	"client_url": null,
-	"creators": [
-		{
-			"name": null,
-			"url": null
+  "project_logo": null,
+  "project_favicon": "favicon.png",
+  "project_name": "Design Code",
+  "project_url": null,
+  "copyright_start_year": null,
+  "client_name": null,
+  "client_url": null,
+  "creators": [
+    {
+      "name": null,
+      "url": null
         }
     ],
-	"theme": {
-		"border_color": "#E0E6ED",
-		"highlight_color": "#F9FAFC",
-		"brand_color": "#00585C",
-		"background_color": "#FFFFFF",
-		"code_highlight_theme": "github",
-		"override_code_highlight_bg": "#F9FAFC",
-		"sample_dark_background": "#333333",
-		"show_project_name": false,
-		"show_version": true,
-		"max_width": null,
-		"titles": {
-			"library_title": "Design Code",
-			"pages_title": "Overview",
-			"components_title": "Components"
-		}
-	},
-	"assets": {
-		"css": ["./assets/css/style.css", "./assets/css/vipdc.css"],
-		"js": ["./assets/js/jquery-1.11.1.min.js", "./assets/js/script.js", "./assets/js/vipdc.js"]
-	},
-	"font_libraries": {
-		"typekit_code": null,
-		"typography_web_fonts": null,
-		"google_web_fonts": null
-	},
-	"content": {
-		"show_first_page_on_load": true,
-		"title": "Overview",
-		"pages": [
-			{
-				"name": "introduction",
-				"title": "Introduction",
-				"file": "./pages/intro.md"
+  "theme": {
+    "border_color": "#E0E6ED",
+    "highlight_color": "#F9FAFC",
+    "brand_color": "#00585C",
+    "background_color": "#FFFFFF",
+    "code_highlight_theme": "github",
+    "override_code_highlight_bg": "#F9FAFC",
+    "sample_dark_background": "#333333",
+    "show_project_name": false,
+    "show_version": true,
+    "max_width": null,
+    "titles": {
+      "library_title": "Design Code",
+      "pages_title": "Overview",
+      "components_title": "Components"
+    }
+  },
+  "assets": {
+    "css": ["./assets/themes.min.css"],
+    "js": []
+  },
+  "font_libraries": {
+    "typekit_code": null,
+    "typography_web_fonts": null,
+    "google_web_fonts": null
+  },
+  "content": {
+    "show_first_page_on_load": true,
+    "title": "Overview",
+    "pages": [
+      {
+        "name": "introduction",
+        "title": "Introduction",
+        "file": "./pages/intro.md"
             }
         ]
-	},
-	"groups": [
-		{
-			"name": "Color",
-			"title": "Colors",
-			"components": [
-				{
-					"group": "Color",
-					"name": "Website",
-					"title": "Website",
-					"type": "colors",
-					"colors": [
+  },
+  "groups": [
+    {
+      "name": "Color",
+      "title": "Colors",
+      "components": [
+        {
+          "group": "Color",
+          "name": "Website",
+          "title": "Website",
+          "type": "colors",
+          "colors": [
                         "#7da9f9,#507ed3",
                         "#f469a7,#c14c80",
                         "#60ceb8,#3fa18d",
@@ -69,94 +69,94 @@
                 }
             ]
         },
-		{
-			"name": "Icon",
-			"title": "Icons",
-			"components": [
-				{
-					"group": "Icon",
-					"name": "FontIcon",
-					"title": "Font Icon"
+    {
+      "name": "Icon",
+      "title": "Icons",
+      "components": [
+        {
+          "group": "Icon",
+          "name": "FontIcon",
+          "title": "Font Icon"
                 }
             ]
         },
-		{
-			"name": "Typography",
-			"title": "Typography",
-			"components": [
-				{
-					"group": "Typography",
-					"name": "Paragraph",
-					"title": "Paragraph"
+    {
+      "name": "Typography",
+      "title": "Typography",
+      "components": [
+        {
+          "group": "Typography",
+          "name": "Paragraph",
+          "title": "Paragraph"
                 }
             ]
         },
-		{
-			"name": "Header",
-			"title": "Header",
-			"components": [
-				{
-					"group": "Header",
-					"name": "Header1",
-					"title": "Header1"
+    {
+      "name": "Header",
+      "title": "Header",
+      "components": [
+        {
+          "group": "Header",
+          "name": "Header1",
+          "title": "Header1"
                 }
             ]
         },
-		{
-			"name": "Footer",
-			"title": "Footer",
-			"components": [
-				{
-					"group": "Footer",
-					"name": "Footer1",
-					"title": "Footer1"
+    {
+      "name": "Footer",
+      "title": "Footer",
+      "components": [
+        {
+          "group": "Footer",
+          "name": "Footer1",
+          "title": "Footer1"
                 }
             ]
         },
-		{
-			"name": "Navigation",
-			"title": "Navigation",
-			"components": [
-				{
-					"group": "Navigation",
-					"name": "Navigation1",
-					"title": "Navigation1"
+    {
+      "name": "Navigation",
+      "title": "Navigation",
+      "components": [
+        {
+          "group": "Navigation",
+          "name": "Navigation1",
+          "title": "Navigation1"
                 }
             ]
         },
-		{
-			"name": "Button",
-			"title": "Button",
-			"components": [
-				{
-					"group": "Button",
-					"name": "Button1",
-					"title": "Button1"
+    {
+      "name": "Button",
+      "title": "Button",
+      "components": [
+        {
+          "group": "Button",
+          "name": "Button1",
+          "title": "Button1"
                 }
             ]
         },
-		{
-			"name": "Tab",
-			"title": "Tab",
-			"components": [
-				{
-					"group": "Tab",
-					"name": "Tab1",
-					"title": "Tab1"
+    {
+      "name": "Tab",
+      "title": "Tab",
+      "components": [
+        {
+          "group": "Tab",
+          "name": "Tab1",
+          "title": "Tab1"
                 }
             ]
         },
-		{
-			"name": "Form",
-			"title": "Form",
-			"components": [
-				{
-					"group": "Form",
-					"name": "Form1",
-					"title": "From1"
+    {
+      "name": "Form",
+      "title": "Form",
+      "components": [
+        {
+          "group": "Form",
+          "name": "Form1",
+          "title": "From1"
                 }
             ]
         }
     ],
-	"version": "1.9.3"
+  "version": "1.9.3"
 }

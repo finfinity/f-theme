@@ -1,0 +1,25 @@
+{
+  "name": "themes",
+  "version": "1.0.0",
+  "description": "Themes UI",
+  "author": "fly",
+  "scripts": {
+    "start": "npm run http-server",
+    "http-server": "http-server -p 10000",
+    "gulp": "gulp"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "http-server": "^0.10.0"
+  }
+}
