@@ -7,7 +7,16 @@ var gulp = require('gulp'), //gulp基础库
   notify = require('gulp-notify'),
   sass = require('gulp-sass'),
   sourcemaps = require('gulp-sourcemaps'),
+  postcss = require('gulp-postcss'),
+  autoprefixer = require('autoprefixer'),
+  cssnext = require('cssnext'),
+  precss = require('precss'),
   livereload = require('gulp-livereload'); //提示
+
+var processors = [autoprefixer({
+  remove: false, //对旧代码不删除prefixer（加快编译速度）
+  browsers: ['> 1%', 'ie>=9', 'Firefox >= 20']
+}), cssnext, precss];
 
 gulp.task('default', function () {
   gulp.start('watch');
@@ -50,6 +59,7 @@ gulp.task('sass', function () {
   return gulp.src('./components/**/*.scss')
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
+    .pipe(postcss(processors))
     .pipe(concat('themes.css'))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('./assets'))

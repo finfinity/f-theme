@@ -1,17 +1,17 @@
 {
-  "project_logo": null,
-  "project_favicon": "favicon.png",
-  "project_name": "Design Code",
+  "project_logo": "https://source.vipabc.com/Ext/images/website/share/logo2/logo.png",
+  "project_favicon": "https://www.tutorabc.com.cn/Content/RwdImages/favicon.ico",
+  "project_name": "Themes",
   "project_url": null,
-  "copyright_start_year": null,
+  "copyright_start_year": 2017,
   "client_name": null,
   "client_url": null,
   "creators": [
     {
-      "name": null,
+      "name": "FE",
       "url": null
-        }
-    ],
+    }
+  ],
   "theme": {
     "border_color": "#E0E6ED",
     "highlight_color": "#F9FAFC",
@@ -24,9 +24,9 @@
     "show_version": true,
     "max_width": null,
     "titles": {
-      "library_title": "Design Code",
-      "pages_title": "Overview",
-      "components_title": "Components"
+      "library_title": "Themes",
+      "pages_title": "开发指南",
+      "components_title": "基础组件"
     }
   },
   "assets": {
@@ -43,11 +43,11 @@
     "title": "Overview",
     "pages": [
       {
-        "name": "introduction",
-        "title": "Introduction",
-        "file": "./pages/intro.md"
-            }
-        ]
+        "name": "installation",
+        "title": "安装",
+        "file": "./pages/installation.md"
+      }
+    ]
   },
   "groups": [
     {
