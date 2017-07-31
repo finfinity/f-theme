@@ -1,7 +1,7 @@
 {
   "project_logo": "https://source.vipabc.com/Ext/images/website/share/logo2/logo.png",
   "project_favicon": "https://www.tutorabc.com.cn/Content/RwdImages/favicon.ico",
-  "project_name": "Themes",
+  "project_name": "Theme",
   "project_url": null,
   "copyright_start_year": 2017,
   "client_name": null,
@@ -10,8 +10,8 @@
     {
       "name": "FE",
       "url": null
-    }
-  ],
+        }
+    ],
   "theme": {
     "border_color": "#E0E6ED",
     "highlight_color": "#F9FAFC",
@@ -24,13 +24,16 @@
     "show_version": true,
     "max_width": null,
     "titles": {
-      "library_title": "Themes",
+      "library_title": "Theme",
       "pages_title": "开发指南",
       "components_title": "基础组件"
     }
   },
   "assets": {
-    "css": ["./assets/themes.min.css"],
+    "css": [
+        "./assets/theme.min.css",
+        "./assets/help.css"
+    ],
     "js": []
   },
   "font_libraries": {
@@ -40,120 +43,106 @@
   },
   "content": {
     "show_first_page_on_load": true,
-    "title": "Overview",
+    "title": "Content",
     "pages": [
       {
         "name": "installation",
         "title": "安装",
         "file": "./pages/installation.md"
-      }
-    ]
+            }
+        ]
   },
   "groups": [
     {
-      "name": "Color",
-      "title": "Colors",
+      "name": "basic",
+      "title": "Basic",
       "components": [
         {
-          "group": "Color",
-          "name": "Website",
-          "title": "Website",
+          "group": "basic",
+          "name": "layout",
+          "title": "Layout 布局"
+                },
+        {
+          "group": "basic",
+          "name": "color",
+          "title": "Color 色彩",
           "type": "colors",
           "colors": [
-                        "#7da9f9,#507ed3",
-                        "#f469a7,#c14c80",
-                        "#60ceb8,#3fa18d",
-                        "#f5d13f,#f5a63f",
-                        "#e199e5,#c776cb"
+                        "#333,#666",
+                        "#999,#ccc",
+                        "#eee,#fff",
+                        "#D72632,#FF4B59"
                     ]
-                }
-            ]
-        },
-    {
-      "name": "Icon",
-      "title": "Icons",
-      "components": [
+                },
         {
-          "group": "Icon",
-          "name": "FontIcon",
-          "title": "Font Icon"
-                }
-            ]
-        },
-    {
-      "name": "Typography",
-      "title": "Typography",
-      "components": [
+          "group": "basic",
+          "name": "typography",
+          "title": "Typography 字体"
+                },
         {
-          "group": "Typography",
-          "name": "Paragraph",
-          "title": "Paragraph"
-                }
-            ]
-        },
-    {
-      "name": "Header",
-      "title": "Header",
-      "components": [
+          "group": "basic",
+          "name": "icon",
+          "title": "Icon 图标"
+                },
         {
-          "group": "Header",
-          "name": "Header1",
-          "title": "Header1"
+          "group": "basic",
+          "name": "button",
+          "title": "Button 按钮"
                 }
             ]
         },
     {
-      "name": "Footer",
-      "title": "Footer",
-      "components": [
-        {
-          "group": "Footer",
-          "name": "Footer1",
-          "title": "Footer1"
-                }
-            ]
-        },
-    {
-      "name": "Navigation",
-      "title": "Navigation",
-      "components": [
-        {
-          "group": "Navigation",
-          "name": "Navigation1",
-          "title": "Navigation1"
-                }
-            ]
-        },
-    {
-      "name": "Button",
-      "title": "Button",
-      "components": [
-        {
-          "group": "Button",
-          "name": "Button1",
-          "title": "Button1"
-                }
-            ]
-        },
-    {
-      "name": "Tab",
-      "title": "Tab",
-      "components": [
-        {
-          "group": "Tab",
-          "name": "Tab1",
-          "title": "Tab1"
-                }
-            ]
-        },
-    {
-      "name": "Form",
+      "name": "form",
       "title": "Form",
       "components": [
         {
-          "group": "Form",
-          "name": "Form1",
-          "title": "From1"
+          "group": "form",
+          "name": "radio",
+          "title": "Radio 单选框"
+                }
+            ]
+        },
+    {
+      "name": "data",
+      "title": "Data",
+      "components": [
+        {
+          "group": "data",
+          "name": "table",
+          "title": "Table 表格"
+                }
+            ]
+        },
+    {
+      "name": "notice",
+      "title": "Notice",
+      "components": [
+        {
+          "group": "notice",
+          "name": "alert",
+          "title": "Alert 警告"
+                }
+            ]
+        },
+    {
+      "name": "navigation",
+      "title": "Navigation",
+      "components": [
+        {
+          "group": "navigation",
+          "name": "navmenu",
+          "title": "NavMenu 导航菜单"
+                }
+            ]
+        },
+    {
+      "name": "others",
+      "title": "Others",
+      "components": [
+        {
+          "group": "others",
+          "name": "dialog",
+          "title": "Dialog 对话框"
                 }
             ]
         }

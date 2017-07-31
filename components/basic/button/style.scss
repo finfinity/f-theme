@@ -1,0 +1,54 @@
+.button-arc {
+  width: 160px;
+  height: 44px;
+  border-radius: 22px;
+  font-size: 1rem;
+  color: #fff;
+  box-sizing: border-box;
+  background: #FF4B59;
+  border: 0;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.button-arc:hover,
+.button-arc:focus {
+  background: #D72632;
+}
+
+.button-hollow {
+  width: 160px;
+  height: 44px;
+  border-radius: 22px;
+  font-size: 1rem;
+  color: #FF4B59;
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #FF4B59;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.button-hollow:hover,
+.button-hollow:focus {
+  background: #FF4B59;
+  color: #fff;
+}
+
+.button-fillet {
+  width: 160px;
+  height: 44px;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #fff;
+  box-sizing: border-box;
+  background: #FF4B59;
+  border: 0;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.button-fillet:hover,
+.button-fillet:focus {
+  background: #D72632;
+}

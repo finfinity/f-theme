@@ -60,7 +60,7 @@ gulp.task('sass', function () {
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(postcss(processors))
-    .pipe(concat('themes.css'))
+    .pipe(concat('theme.css'))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('./assets'))
     .pipe(rename({
