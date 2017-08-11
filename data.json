@@ -68,12 +68,13 @@
           "title": "Color 色彩",
           "type": "colors",
           "colors": [
-                        "#333,#666",
-                        "#999,#ccc",
-                        "#eee,#fff",
-                        "#D72632,#FF4B59"
-                    ]
-                },
+              "#333,#666,#999,#ccc",
+              "#eee,#fff",
+              "#d72632,#ff4b59,#ff091a",
+              "#00f,#5f6ad2,#00a0ec",
+              "#6ac900,#ff9400"
+          ]
+        },
         {
           "group": "basic",
           "name": "typography",
@@ -89,8 +90,8 @@
           "name": "button",
           "title": "Button 按钮"
                 }
-            ]
-        },
+      ]
+    },
     {
       "name": "form",
       "title": "Form",

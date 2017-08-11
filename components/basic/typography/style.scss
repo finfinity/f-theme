@@ -1,34 +1,30 @@
-html,
-body {
-  font-family: "Hiragino Sans GB", "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, Lucida, Verdana, SimSun, Helvetica, sans-serif;
-  font-size: 16px;
-}
+@import "../../common.scss";
 
 .h1 {
-  font-size: 2.5rem;
+  font-size: pxToRem(40px);
 }
 
 .h2 {
-  font-size: 1.875rem;
-  line-height: 3rem;
+  font-size: pxToRem(30px);
+  line-height: pxToRem(48px);
 }
 
 .h3 {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+  font-size: pxToRem(18px);
+  line-height: pxToRem(28px);
 }
 
 .text-regular {
-  font-size: 1rem;
-  line-height: 1.625rem;
+  font-size: pxToRem(16px);
+  line-height: pxToRem(26px);
 }
 
 .text-small {
-  font-size: 0.5384615384615384rem;
-  line-height: 1.375rem;
+  font-size: pxToRem(14px);
+  line-height: pxToRem(22px);
 }
 
 .text-smaller {
-  font-size: 0.75rem;
-  line-height: 1.125rem;
+  font-size: pxToRem(12px);
+  line-height: pxToRem(18px);
 }

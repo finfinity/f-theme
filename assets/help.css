@@ -1,3 +1,8 @@
-td{
-  padding: 10px;
+.help-list {
+  text-align: center;
+}
+
+.help-item {
+  display: inline-block;
+  margin: 10px;
 }

@@ -1,0 +1,16 @@
+$baseFontSize: 16px;
+html,
+body {
+  font-family: "Hiragino Sans GB", "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, Lucida, Verdana, SimSun, Helvetica, sans-serif;
+  font-size: $baseFontSize;
+}
+
+@function pxToRem($px) {
+  @if $lte8 {
+    @return $px
+  }
+  @else {
+    @return $px / $baseFontSize * 1rem;
+  }
+}
+
