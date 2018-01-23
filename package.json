@@ -1,7 +1,7 @@
 {
-  "name": "themes",
+  "name": "f-components",
   "version": "1.0.0",
-  "description": "Themes UI",
+  "description": "f-components",
   "author": "fly",
   "scripts": {
     "start": "npm run http-server",
